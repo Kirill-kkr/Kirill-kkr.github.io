@@ -1,0 +1,188 @@
+﻿html, body {
+	height: 100%;
+}
+
+body {
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 12pt;
+	font-weight: 400;
+	color: rgba(0,0,0,.8);
+}
+h1, h2, h3 {
+	margin: 0;
+	padding: 0;
+	text-transform: uppercase;
+	font-weight: 300;
+	color: #2D2D2D;
+}
+
+h2 {
+	font-size: 2.50em;
+}
+
+
+p,ul {
+	margin-top: 0px;
+}
+
+p {
+	line-height: 180%;
+}
+
+a {
+	color: rgba(0,0,0,.8);
+}
+/** WRAPPER */
+
+#wrapper {
+	background: #FFF;
+	margin: 0px 20px;
+}
+
+.clearfix {
+	clear: both;
+}
+
+/** верхняя картинка */
+
+#header-wrapper
+{
+	background: url(IMG/mx.jpg) no-repeat center center;
+	background-size: cover;
+}
+
+#header {
+	position: relative;
+	overflow: hidden;
+	height: 600px;
+}
+
+
+
+
+/** меню */
+
+#menu {
+	overflow: hidden;
+	background: #101010;
+}
+
+ul {
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px;
+	list-style: none;
+	line-height: normal;
+}
+
+li {
+	display: inline-block;
+}
+
+   a 
+   {
+	display: block;
+	padding: 0px 40px 0px 40px;
+	line-height: 70px;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 16px;
+	font-weight: 200;
+	color: rgba(255,255,255,0.5);
+	border: none;
+    }
+
+    a:hover 
+    {
+	text-decoration: none;
+	color: rgba(255,255,255,0.8);
+	transition: all 0.2s ease;
+    }
+
+/** Страница */
+#page {
+	overflow: hidden;
+	padding: 5em 0em;
+}
+
+	#page .title
+	{
+		margin-bottom: 2em;
+	}
+
+	#page .title h2
+	{
+		font-size: 1.5em;
+		font-weight: 400;
+		color: rgba(0,0,0,0.8);
+	}
+	
+/*********************************************************************************/
+/* Заголовки                                                                     */
+/*********************************************************************************/
+	.column1,
+	.column4
+	{
+		width: 282px;
+		float: right;
+	}
+	
+	.column1
+	{
+		float: left;
+		margin-right: 24px;
+	}
+	
+	
+/*********************************************************************************/
+/* Верохушка (текст)                                                              */
+/*********************************************************************************/
+
+	.title
+	{
+		margin-bottom: 3em;
+	}
+	
+	.title h2
+	{
+		margin: 0;
+		padding: 0;
+		font-size: 2.8em;
+		color: rgba(255,255,255,0.9);
+	}
+	
+/* кнопка                                                          */
+.cnopka
+	{
+		display: inline-block;
+		margin-top: 2em;
+		padding: 0em 1em;
+		background: #161616;
+		letter-spacing: 0.10em;
+		line-height: 3em;
+		text-decoration: none;
+		text-transform: uppercase;
+		font-weight: 400;
+		font-size: 1em;
+		color: #FFF;
+	}
+	
+	
+	/* выпадающее	*/
+.vapadmenu
+{	
+	width: 1200px;
+margin: 0px auto;
+}
+.vapadmenu li ul{
+ position: absolute;
+ display: none;
+ text-transform: none;
+ background:#101010;
+}
+.vapadmenu li:hover ul{
+ display: block;
+ transition:1s;
+}
